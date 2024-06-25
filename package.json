@@ -1,13 +1,21 @@
 {
   "name": "chess_clone",
   "version": "1.0.0",
-  "description": "",
+  "description": "A chess game clone using Node.js, Express, and Socket.io",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chess",
+    "game",
+    "nodejs",
+    "express",
+    "socket.io"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "chess.js": "^1.0.0-beta.8",
@@ -16,5 +24,8 @@
     "express": "^4.19.2",
     "mongoose": "^8.4.3",
     "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
